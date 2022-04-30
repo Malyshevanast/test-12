@@ -9,11 +9,11 @@ browser.get('https://accounts.spotify.com/ru/login?continue=https%3A%2F%2Fopen.s
 
 # заполняем поле логин, привязываемся к элементу через его id
 username=browser.find_element(by=By.ID, value='login-username')
-username.send_keys('malishevant2003@mail.ru')
+username.send_keys('')
 
 # заполняем поле пароля, привязываемся к элементу через его id
 password=browser.find_element(by=By.ID, value='login-password')
-password.send_keys('135Y79PRIVET')
+password.send_keys('')
 
 
 #Получаем указатель на кнопку "Войти", привязываемся к элементу через его css_selector
